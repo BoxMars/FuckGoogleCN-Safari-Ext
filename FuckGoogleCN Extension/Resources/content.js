@@ -1,7 +1,5 @@
-browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
-    console.log("Received response: ", response);
-});
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const query = urlParams.get('q')
 
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-});
+window.location.href="https://google.com/search?q="+query
