@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8450A42A07DB260048DE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8450A32A07DB260048DE85 /* AppDelegate.swift */; };
+		9C8450A82A07DB260048DE85 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450A62A07DB260048DE85 /* Main.html */; };
+		9C8450AA2A07DB260048DE85 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450A92A07DB260048DE85 /* Icon.png */; };
+		9C8450AC2A07DB260048DE85 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450AB2A07DB260048DE85 /* Style.css */; };
+		9C8450AE2A07DB260048DE85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8450AD2A07DB260048DE85 /* SceneDelegate.swift */; };
+		9C8450B02A07DB260048DE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8450AF2A07DB260048DE85 /* ViewController.swift */; };
+		9C8450B32A07DB260048DE85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450B12A07DB260048DE85 /* LaunchScreen.storyboard */; };
+		9C8450B62A07DB260048DE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450B42A07DB260048DE85 /* Main.storyboard */; };
+		9C8450C22A07DB270048DE85 /* FuckGoogleCNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8450C12A07DB270048DE85 /* FuckGoogleCNTests.swift */; };
+		9C8450CC2A07DB270048DE85 /* FuckGoogleCNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8450CB2A07DB270048DE85 /* FuckGoogleCNUITests.swift */; };
+		9C8450CE2A07DB270048DE85 /* FuckGoogleCNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8450CD2A07DB270048DE85 /* FuckGoogleCNUITestsLaunchTests.swift */; };
+		9C8450D42A07DB270048DE85 /* FuckGoogleCN Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C8450D32A07DB270048DE85 /* FuckGoogleCN Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C8450D92A07DB270048DE85 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8450D82A07DB270048DE85 /* SafariWebExtensionHandler.swift */; };
+		9C8450DC2A07DB270048DE85 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450DB2A07DB270048DE85 /* _locales */; };
+		9C8450DE2A07DB270048DE85 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450DD2A07DB270048DE85 /* images */; };
+		9C8450E02A07DB270048DE85 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450DF2A07DB270048DE85 /* manifest.json */; };
+		9C8450E22A07DB270048DE85 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450E12A07DB270048DE85 /* background.js */; };
+		9C8450E42A07DB270048DE85 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450E32A07DB270048DE85 /* content.js */; };
+		9C8450E62A07DB270048DE85 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450E52A07DB270048DE85 /* popup.html */; };
+		9C8450E82A07DB270048DE85 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450E72A07DB270048DE85 /* popup.css */; };
+		9C8450EA2A07DB270048DE85 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450E92A07DB270048DE85 /* popup.js */; };
+		9C8450EC2A07DB270048DE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8450B72A07DB270048DE85 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C8450BE2A07DB270048DE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8450982A07DB260048DE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C84509F2A07DB260048DE85;
+			remoteInfo = FuckGoogleCN;
+		};
+		9C8450C82A07DB270048DE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8450982A07DB260048DE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C84509F2A07DB260048DE85;
+			remoteInfo = FuckGoogleCN;
+		};
+		9C8450D52A07DB270048DE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8450982A07DB260048DE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8450D22A07DB270048DE85;
+			remoteInfo = "FuckGoogleCN Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C8450F22A07DB270048DE85 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9C8450D42A07DB270048DE85 /* FuckGoogleCN Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C8450A02A07DB260048DE85 /* FuckGoogleCN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckGoogleCN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8450A32A07DB260048DE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C8450A72A07DB260048DE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9C8450A92A07DB260048DE85 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9C8450AB2A07DB260048DE85 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9C8450AD2A07DB260048DE85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C8450AF2A07DB260048DE85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C8450B22A07DB260048DE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8450B52A07DB260048DE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C8450B72A07DB270048DE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8450B82A07DB270048DE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8450BD2A07DB270048DE85 /* FuckGoogleCNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckGoogleCNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8450C12A07DB270048DE85 /* FuckGoogleCNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckGoogleCNTests.swift; sourceTree = "<group>"; };
+		9C8450C72A07DB270048DE85 /* FuckGoogleCNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckGoogleCNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8450CB2A07DB270048DE85 /* FuckGoogleCNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckGoogleCNUITests.swift; sourceTree = "<group>"; };
+		9C8450CD2A07DB270048DE85 /* FuckGoogleCNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckGoogleCNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C8450D32A07DB270048DE85 /* FuckGoogleCN Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FuckGoogleCN Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8450D82A07DB270048DE85 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9C8450DB2A07DB270048DE85 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		9C8450DD2A07DB270048DE85 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		9C8450DF2A07DB270048DE85 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9C8450E12A07DB270048DE85 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		9C8450E32A07DB270048DE85 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		9C8450E52A07DB270048DE85 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		9C8450E72A07DB270048DE85 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		9C8450E92A07DB270048DE85 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		9C8450EB2A07DB270048DE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C84509D2A07DB260048DE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450BA2A07DB270048DE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450C42A07DB270048DE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450D02A07DB270048DE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8450972A07DB260048DE85 = {
+			isa = PBXGroup;
+			children = (
+				9C8450A22A07DB260048DE85 /* FuckGoogleCN */,
+				9C8450C02A07DB270048DE85 /* FuckGoogleCNTests */,
+				9C8450CA2A07DB270048DE85 /* FuckGoogleCNUITests */,
+				9C8450D72A07DB270048DE85 /* FuckGoogleCN Extension */,
+				9C8450A12A07DB260048DE85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8450A12A07DB260048DE85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8450A02A07DB260048DE85 /* FuckGoogleCN.app */,
+				9C8450BD2A07DB270048DE85 /* FuckGoogleCNTests.xctest */,
+				9C8450C72A07DB270048DE85 /* FuckGoogleCNUITests.xctest */,
+				9C8450D32A07DB270048DE85 /* FuckGoogleCN Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8450A22A07DB260048DE85 /* FuckGoogleCN */ = {
+			isa = PBXGroup;
+			children = (
+				9C8450A32A07DB260048DE85 /* AppDelegate.swift */,
+				9C8450AD2A07DB260048DE85 /* SceneDelegate.swift */,
+				9C8450AF2A07DB260048DE85 /* ViewController.swift */,
+				9C8450B12A07DB260048DE85 /* LaunchScreen.storyboard */,
+				9C8450B42A07DB260048DE85 /* Main.storyboard */,
+				9C8450B72A07DB270048DE85 /* Assets.xcassets */,
+				9C8450B82A07DB270048DE85 /* Info.plist */,
+				9C8450A52A07DB260048DE85 /* Resources */,
+			);
+			path = FuckGoogleCN;
+			sourceTree = "<group>";
+		};
+		9C8450A52A07DB260048DE85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C8450A62A07DB260048DE85 /* Main.html */,
+				9C8450A92A07DB260048DE85 /* Icon.png */,
+				9C8450AB2A07DB260048DE85 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C8450C02A07DB270048DE85 /* FuckGoogleCNTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8450C12A07DB270048DE85 /* FuckGoogleCNTests.swift */,
+			);
+			path = FuckGoogleCNTests;
+			sourceTree = "<group>";
+		};
+		9C8450CA2A07DB270048DE85 /* FuckGoogleCNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8450CB2A07DB270048DE85 /* FuckGoogleCNUITests.swift */,
+				9C8450CD2A07DB270048DE85 /* FuckGoogleCNUITestsLaunchTests.swift */,
+			);
+			path = FuckGoogleCNUITests;
+			sourceTree = "<group>";
+		};
+		9C8450D72A07DB270048DE85 /* FuckGoogleCN Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9C8450D82A07DB270048DE85 /* SafariWebExtensionHandler.swift */,
+				9C8450EB2A07DB270048DE85 /* Info.plist */,
+				9C8450DA2A07DB270048DE85 /* Resources */,
+			);
+			path = "FuckGoogleCN Extension";
+			sourceTree = "<group>";
+		};
+		9C8450DA2A07DB270048DE85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C8450DB2A07DB270048DE85 /* _locales */,
+				9C8450DD2A07DB270048DE85 /* images */,
+				9C8450DF2A07DB270048DE85 /* manifest.json */,
+				9C8450E12A07DB270048DE85 /* background.js */,
+				9C8450E32A07DB270048DE85 /* content.js */,
+				9C8450E52A07DB270048DE85 /* popup.html */,
+				9C8450E72A07DB270048DE85 /* popup.css */,
+				9C8450E92A07DB270048DE85 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C84509F2A07DB260048DE85 /* FuckGoogleCN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8450F32A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCN" */;
+			buildPhases = (
+				9C84509C2A07DB260048DE85 /* Sources */,
+				9C84509D2A07DB260048DE85 /* Frameworks */,
+				9C84509E2A07DB260048DE85 /* Resources */,
+				9C8450F22A07DB270048DE85 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8450D62A07DB270048DE85 /* PBXTargetDependency */,
+			);
+			name = FuckGoogleCN;
+			productName = FuckGoogleCN;
+			productReference = 9C8450A02A07DB260048DE85 /* FuckGoogleCN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C8450BC2A07DB270048DE85 /* FuckGoogleCNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8450F62A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCNTests" */;
+			buildPhases = (
+				9C8450B92A07DB270048DE85 /* Sources */,
+				9C8450BA2A07DB270048DE85 /* Frameworks */,
+				9C8450BB2A07DB270048DE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8450BF2A07DB270048DE85 /* PBXTargetDependency */,
+			);
+			name = FuckGoogleCNTests;
+			productName = FuckGoogleCNTests;
+			productReference = 9C8450BD2A07DB270048DE85 /* FuckGoogleCNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C8450C62A07DB270048DE85 /* FuckGoogleCNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8450F92A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCNUITests" */;
+			buildPhases = (
+				9C8450C32A07DB270048DE85 /* Sources */,
+				9C8450C42A07DB270048DE85 /* Frameworks */,
+				9C8450C52A07DB270048DE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8450C92A07DB270048DE85 /* PBXTargetDependency */,
+			);
+			name = FuckGoogleCNUITests;
+			productName = FuckGoogleCNUITests;
+			productReference = 9C8450C72A07DB270048DE85 /* FuckGoogleCNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9C8450D22A07DB270048DE85 /* FuckGoogleCN Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8450EF2A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCN Extension" */;
+			buildPhases = (
+				9C8450CF2A07DB270048DE85 /* Sources */,
+				9C8450D02A07DB270048DE85 /* Frameworks */,
+				9C8450D12A07DB270048DE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FuckGoogleCN Extension";
+			productName = "FuckGoogleCN Extension";
+			productReference = 9C8450D32A07DB270048DE85 /* FuckGoogleCN Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8450982A07DB260048DE85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9C84509F2A07DB260048DE85 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					9C8450BC2A07DB270048DE85 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9C84509F2A07DB260048DE85;
+					};
+					9C8450C62A07DB270048DE85 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9C84509F2A07DB260048DE85;
+					};
+					9C8450D22A07DB270048DE85 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 9C84509B2A07DB260048DE85 /* Build configuration list for PBXProject "FuckGoogleCN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C8450972A07DB260048DE85;
+			productRefGroup = 9C8450A12A07DB260048DE85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C84509F2A07DB260048DE85 /* FuckGoogleCN */,
+				9C8450BC2A07DB270048DE85 /* FuckGoogleCNTests */,
+				9C8450C62A07DB270048DE85 /* FuckGoogleCNUITests */,
+				9C8450D22A07DB270048DE85 /* FuckGoogleCN Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C84509E2A07DB260048DE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8450AA2A07DB260048DE85 /* Icon.png in Resources */,
+				9C8450B62A07DB260048DE85 /* Main.storyboard in Resources */,
+				9C8450B32A07DB260048DE85 /* LaunchScreen.storyboard in Resources */,
+				9C8450A82A07DB260048DE85 /* Main.html in Resources */,
+				9C8450EC2A07DB270048DE85 /* Assets.xcassets in Resources */,
+				9C8450AC2A07DB260048DE85 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450BB2A07DB270048DE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450C52A07DB270048DE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450D12A07DB270048DE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8450E22A07DB270048DE85 /* background.js in Resources */,
+				9C8450E82A07DB270048DE85 /* popup.css in Resources */,
+				9C8450E62A07DB270048DE85 /* popup.html in Resources */,
+				9C8450DE2A07DB270048DE85 /* images in Resources */,
+				9C8450E02A07DB270048DE85 /* manifest.json in Resources */,
+				9C8450DC2A07DB270048DE85 /* _locales in Resources */,
+				9C8450E42A07DB270048DE85 /* content.js in Resources */,
+				9C8450EA2A07DB270048DE85 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C84509C2A07DB260048DE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8450B02A07DB260048DE85 /* ViewController.swift in Sources */,
+				9C8450A42A07DB260048DE85 /* AppDelegate.swift in Sources */,
+				9C8450AE2A07DB260048DE85 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450B92A07DB270048DE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8450C22A07DB270048DE85 /* FuckGoogleCNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450C32A07DB270048DE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8450CC2A07DB270048DE85 /* FuckGoogleCNUITests.swift in Sources */,
+				9C8450CE2A07DB270048DE85 /* FuckGoogleCNUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8450CF2A07DB270048DE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8450D92A07DB270048DE85 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C8450BF2A07DB270048DE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C84509F2A07DB260048DE85 /* FuckGoogleCN */;
+			targetProxy = 9C8450BE2A07DB270048DE85 /* PBXContainerItemProxy */;
+		};
+		9C8450C92A07DB270048DE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C84509F2A07DB260048DE85 /* FuckGoogleCN */;
+			targetProxy = 9C8450C82A07DB270048DE85 /* PBXContainerItemProxy */;
+		};
+		9C8450D62A07DB270048DE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8450D22A07DB270048DE85 /* FuckGoogleCN Extension */;
+			targetProxy = 9C8450D52A07DB270048DE85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C8450A62A07DB260048DE85 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8450A72A07DB260048DE85 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		9C8450B12A07DB260048DE85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8450B22A07DB260048DE85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C8450B42A07DB260048DE85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8450B52A07DB260048DE85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C8450ED2A07DB270048DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C8450EE2A07DB270048DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8450F02A07DB270048DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FuckGoogleCN Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FuckGoogleCN Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCN.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8450F12A07DB270048DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FuckGoogleCN Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FuckGoogleCN Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCN.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C8450F42A07DB270048DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuckGoogleCN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FuckGoogleCN;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8450F52A07DB270048DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuckGoogleCN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FuckGoogleCN;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C8450F72A07DB270048DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckGoogleCN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuckGoogleCN";
+			};
+			name = Debug;
+		};
+		9C8450F82A07DB270048DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckGoogleCN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuckGoogleCN";
+			};
+			name = Release;
+		};
+		9C8450FA2A07DB270048DE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuckGoogleCN;
+			};
+			name = Debug;
+		};
+		9C8450FB2A07DB270048DE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boxz.FuckGoogleCNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuckGoogleCN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C84509B2A07DB260048DE85 /* Build configuration list for PBXProject "FuckGoogleCN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8450ED2A07DB270048DE85 /* Debug */,
+				9C8450EE2A07DB270048DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8450EF2A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCN Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8450F02A07DB270048DE85 /* Debug */,
+				9C8450F12A07DB270048DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8450F32A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8450F42A07DB270048DE85 /* Debug */,
+				9C8450F52A07DB270048DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8450F62A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8450F72A07DB270048DE85 /* Debug */,
+				9C8450F82A07DB270048DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8450F92A07DB270048DE85 /* Build configuration list for PBXNativeTarget "FuckGoogleCNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8450FA2A07DB270048DE85 /* Debug */,
+				9C8450FB2A07DB270048DE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8450982A07DB260048DE85 /* Project object */;
+}
